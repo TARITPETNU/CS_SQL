@@ -7,9 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Create Table" HorizontalAlignment="Left" Margin="368,211,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button x:Name="insert" Content="Insert" HorizontalAlignment="Left" Margin="458,211,0,0" VerticalAlignment="Top" Width="75" Click="insert_Click"/>
-        <Button x:Name="showBtn" Content="Show" HorizontalAlignment="Left" Margin="408,235,0,0" VerticalAlignment="Top" Width="75" Click="showBtn_Click"/>
+        <Button Content="Create Table" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="insert" Content="Insert" HorizontalAlignment="Left" Margin="100,9,0,0" VerticalAlignment="Top" Width="75" Click="insert_Click"/>
+        <Button x:Name="showBtn" Content="Show" HorizontalAlignment="Left" Margin="50,33,0,0" VerticalAlignment="Top" Width="75" Click="showBtn_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="189,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button x:Name="createStore" Content="createStore" HorizontalAlignment="Left" Margin="460,116,0,0" VerticalAlignment="Top" Width="75" Click="createStore_Click"/>
+        <Button x:Name="Insert" Content="Insert" HorizontalAlignment="Left" Margin="540,116,0,0" VerticalAlignment="Top" Width="75" Click="Insert_Click_1"/>
+        <Button x:Name="Showw" Content="Show" HorizontalAlignment="Left" Margin="346,198,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.291,-2.292" Click="Showw_Click"/>
+        <TextBox x:Name="searchTxt" HorizontalAlignment="Left" Height="23" Margin="346,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

@@ -45,5 +45,36 @@ namespace CS_SQL
             MessageBox.Show(data);
             
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window2 nextPage = new Window2();
+            nextPage.Show();
+        }
+
+        private void Showw_Click(object sender, RoutedEventArgs e)
+        {
+            string data = " ";
+            foreach (string _data in dataAccess.search(searchTxt.Text))
+            {
+                    data = data + "\n " + _data;
+                  
+            }
+
+            MessageBox.Show(data);
+        }
+
+        private void createStore_Click(object sender, RoutedEventArgs e)
+        {
+            dataAccess.ceareTable();
+        }
+
+        private void Insert_Click_1(object sender, RoutedEventArgs e)
+        {
+            dataAccess.addBook(00, "Kino I", 250);
+            dataAccess.addBook(01, "Kino II", 249);
+        }
+
+       
     }
 }

@@ -32,3 +32,5 @@ C:\Users\USER\Documents\GitHub\CS_SQL\CS_SQL\CS_SQL\obj\Debug\CS_SQL.csproj.Core
 C:\Users\USER\Documents\GitHub\CS_SQL\CS_SQL\CS_SQL\obj\Debug\CS_SQL.csproj.CopyComplete
 C:\Users\USER\Documents\GitHub\CS_SQL\CS_SQL\CS_SQL\obj\Debug\CS_SQL.exe
 C:\Users\USER\Documents\GitHub\CS_SQL\CS_SQL\CS_SQL\obj\Debug\CS_SQL.pdb
+C:\Users\USER\Documents\GitHub\CS_SQL\CS_SQL\CS_SQL\obj\Debug\Window2.g.cs
+C:\Users\USER\Documents\GitHub\CS_SQL\CS_SQL\CS_SQL\obj\Debug\Window2.baml
